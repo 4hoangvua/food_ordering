@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.offer-card {
+  @apply w-full h-48 my-3 rounded-xl overflow-hidden shadow-lg flex items-center gap-5;
+}
+.offer-card__info {
+  @apply flex-1 h-full flex flex-col justify-center items-start gap-4;
+}
+.h1-bold {
+  @apply font-quicksand-bold text-2xl;
+}
+.label {
+  @apply text-xl;
+}
+.input {
+  @apply border;
+}
+.custom-btn {
+  @apply bg-primary p-2 rounded-full overflow-hidden;
+}
+.pragraph-semibold {
+  @apply text-xl font-quicksand-medium;
+}
+.base-bold {
+  @apply text-base font-quicksand-bold;
+}
+.base-regular {
+  @apply text-base font-quicksand;
+}
+.tab-icon {
+  @apply items-center justify-center flex-1  height: 80;
+}
